@@ -1,0 +1,83 @@
+body{
+    background-color: #3e4b51;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.caixa{
+    background-color: #070705;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.buttons-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.botao-sim{
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #6f737e;
+    cursor: pointer;
+    border: 1px solid #656668;
+    border-radius: 5px;
+}
+
+.botao-sim a{
+    text-decoration: none;
+    color: white;
+}
+
+.botao-sim:hover{
+    background-color: #5f626a;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #656668;
+    border-radius: 5px;
+    transition: linear;
+    transition-duration:  0.3s;
+}
+
+.botao-nao{
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #6f737e;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #656668;
+    border-radius: 5px;
+}
+
+.botao-nao:hover{
+    background-color: #5f626a;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #656668;
+    border-radius: 5px;
+    transition: linear;
+    transition-duration:  0.3s;
+}
+
+span{
+    color: white;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+/* .pgt{
+    display: none;
+} */
